@@ -10,7 +10,7 @@ import androidx.fragment.app.DialogFragment
 import com.cherrio.playground.R
 import com.cherrio.playground.databinding.HomeDialogBinding
 
-/*
+/**
 * Created by Ayodele on 24/06/2021
 * Email: jazzedayo@gmail.com
 * Abuja, NIGERIA
@@ -19,7 +19,6 @@ import com.cherrio.playground.databinding.HomeDialogBinding
 class ScanDialog: DialogFragment() {
 
     private lateinit var binding: HomeDialogBinding
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

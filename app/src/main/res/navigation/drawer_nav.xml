@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_nav"
+    app:startDestination="@id/drawer_home">
+
+    <fragment
+        android:id="@+id/drawer_home"
+        android:name="com.cherrio.playground.drawer.drawerfrags.FragmentHome"
+        android:label="FragmentHome" />
+    <fragment
+        android:id="@+id/drawer_dash"
+        android:name="com.cherrio.playground.drawer.drawerfrags.FragmentDash"
+        android:label="FragmentDash" />
+    <fragment
+        android:id="@+id/drawer_not"
+        android:name="com.cherrio.playground.drawer.drawerfrags.FragmentNoti"
+        android:label="FragmentNoti" />
+</navigation>

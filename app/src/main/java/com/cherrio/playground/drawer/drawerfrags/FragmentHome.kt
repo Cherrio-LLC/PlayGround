@@ -32,7 +32,12 @@ class FragmentHome: Fragment() {
     }
 
     private fun openDialog(){
-        val dialog = ScanDialog()
+        /**
+         * This is where the hybrid dialog is been initialized, then passed in lambda to listen to dismiss
+         */
+        val dialog = HybridDialogSheet{
+            println("HybridDialog dismissed")
+        }
         dialog.show(childFragmentManager,ScanDialog.TAG)
     }
 }
